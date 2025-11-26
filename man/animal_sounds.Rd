@@ -16,7 +16,7 @@ A character that combines the animal name and sound.
 }
 \description{
 This function takes an animal and the sound it makes,
-and returns a formatted string.
+and returns a formatted string by creating a wrapper around \code{\link[=paste0]{paste0()}}.
 }
 \examples{
 animal_sounds("dog", "woof")
