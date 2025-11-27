@@ -34,7 +34,7 @@ check_arg <- function(arg, n = 1) {
   }
 }
 
-#'
+#' Function for first rows
 #'
 #' @param data A data frame
 #' @param n An integer
