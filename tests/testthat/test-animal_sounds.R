@@ -8,8 +8,25 @@ test_that("animal_sounds produces expected strings", {
 })
 
 
+# test_that("animal_sounds handles invalid input", {
+#   expect_error(
+#     animal_sounds(c("cat", "dog"), "meow"),
+#   regexp = "`animal` must be a single string")
+# })
+
 test_that("animal_sounds handles invalid input", {
-  expect_error(
-    animal_sounds(c("cat", "dog"), "meow"),
-  regexp = "`animal` must be a single string")
+  expect_error(animal_sounds(c("cat", "dog"), "meow"),
+               class = "error_wrong_length_or_not_string")
 })
+
+
+test_that("error message for invalid output", {
+  expect_snapshot(animal_sounds(c("cat", "dog"), "meow"),
+                  error = TRUE) # we are expecting the code to break here
+})
+
+
+test_that("animals can make no sound", {
+  expect_equal(animal_sounds("giraffe"), "The giraffe makes no sound!")
+})
+

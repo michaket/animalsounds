@@ -4,8 +4,8 @@
 #'
 #' @format A data frame with five rows and two columns
 #' \describe{
-#'  \item{animal}{Type of farm animal}
-#'  \item{sound}{Sound made by the animal}
+#'  \item{`animal`}{Type of farm animal}
+#'  \item{`sound`}{Sound made by the animal}
 #'  }
 
 
