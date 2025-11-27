@@ -15,3 +15,6 @@ BugReports: https://github.com/michaket/animalsounds/issues
 Imports: 
     cli,
     rlang
+Depends: 
+    R (>= 3.5)
+LazyData: true
