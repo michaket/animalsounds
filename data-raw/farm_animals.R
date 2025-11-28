@@ -5,7 +5,8 @@ sound <- c("moo", "neigh", "quack", "baa", "oink")
 
 farm_animals <- data.frame(
   animal = animal,
-  sound = sound)
+  sound = sound
+)
 
 
 usethis::use_data(farm_animals, overwrite = TRUE)
