@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   animalsounds: animalsounds.html
-last_built: 2025-11-28T11:03Z
+last_built: 2025-11-28T14:16Z
 urls:
   reference: https://michaket.github.io/animalsounds/reference
   article: https://michaket.github.io/animalsounds/articles
