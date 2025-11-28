@@ -4,9 +4,9 @@
 \name{animalsounds-package}
 \alias{animalsounds}
 \alias{animalsounds-package}
-\title{animalsounds: What the Package Does (One Line, Title Case)}
+\title{animalsounds: Prints Animals and Sounds}
 \description{
-What the package does (one paragraph).
+Prints the sounds that animals make. Also contains a data set of farm animals and their sounds.
 }
 \seealso{
 Useful links:
